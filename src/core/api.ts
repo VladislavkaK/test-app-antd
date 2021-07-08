@@ -2,7 +2,7 @@ import axios from 'axios';
 import Qs from 'qs';
 
 const API = axios.create({
-  baseURL: `https://data.gov.ru/opendata/`,
+  baseURL: `${window.location.origin}/opendata`,
 });
 
 API.interceptors.request.use(

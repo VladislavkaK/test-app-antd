@@ -1,10 +1,13 @@
-import React from 'react';
+import { ConfigProvider } from 'antd';
 import ReactDOM from 'react-dom';
+import ruRU from 'antd/lib/locale-provider/ru_RU';
 import App from './app';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <App />,
+  <ConfigProvider locale={ruRU}>
+    <App />
+  </ConfigProvider>,
   document.getElementById('root')
 );
 
