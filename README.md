@@ -6,3 +6,8 @@
 4) Styled-components
 5) ant.design
 6) axios
+
+## Установка
+
+1) yarn
+2) yarn start
